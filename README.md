@@ -170,6 +170,18 @@ We can go beyond the previous models in terms of performance and efficiency by u
 On top of it, we add a small multi-layer perceptron and we train it on our dataset.
 We are using VGG16 + small MLP
 
+**Available models in Keras**
+Models for image classification with weights trained on ImageNet:
+- Xception
+- VGG16
+- VGG19
+- ResNet50
+- InceptionV3
+- InceptionResNetV2
+- MobileNet
+- DenseNet
+- NASNet
+
 ```
 model_vgg = applications.VGG16(include_top=False, weights='imagenet')
 ```
